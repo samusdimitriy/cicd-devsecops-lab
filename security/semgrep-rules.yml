@@ -1,0 +1,6 @@
+rules:
+  - id: no-assert-in-tests
+    pattern: assert $X
+    message: "Avoid assert in tests; use explicit checks."
+    severity: ERROR
+    languages: [python]
