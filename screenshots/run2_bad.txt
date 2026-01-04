@@ -1,0 +1,14 @@
+Run: Use vulnerable test_app.py (bed)
+Run ID: 20699711124
+Created: 2026-01-04T21:58:31Z
+Conclusion: failure
+
+Jobs:
+  - secret-scan: success
+  - sast-report (non-blocking): failure
+  - sast-gate: failure
+  - test: skipped
+  - build: skipped
+  - sca: skipped
+  - deploy: skipped
+  - dast: skipped

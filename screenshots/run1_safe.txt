@@ -1,0 +1,14 @@
+Run: Use GHCR ZAP image and ignore baseline warnings
+Run ID: 20699670453
+Created: 2026-01-04T21:54:15Z
+Conclusion: success
+
+Jobs:
+  - secret-scan: success
+  - sast-report (non-blocking): failure
+  - sast-gate: success
+  - test: success
+  - build: success
+  - sca: success
+  - deploy: success
+  - dast: success
